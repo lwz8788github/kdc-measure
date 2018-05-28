@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?><!-- 注释 气压表校核 -->
+<BarometerVerify><!-- 注释 本次任务的测量单位的名称、ID -->
+  <workplace name="中国地震局第一监测中心" id="152037" /><!-- 注释 本次任务的观测小组 信息及观测员记录员信息 -->
+  <group name="小组1" id="00000001">
+    <obsever name="吕健" id="370702198505272214" />
+    <recorder name="刘文龙" id="372330198702223011" />
+  </group><!-- 注释 记录时间 -->
+  <DateTime DateTime="2018-01-04 18:45:56" /><!-- 注释 本次任务的场地 信息 -->
+  <ground name="八宝山" code="bbs" id="LD081" latitude="39.55.2" longitude="116.13.8" /><!-- 注释 场地的干温-->
+  <DryTemp value="+19.9" /><!-- 注释 Barometer的属性No是表号，第一个Barometer是标准表。--><!-- 注释 Barometer中的个4个数分别读数,刻划改正,温度改正,补充改正,改正后气压值,与标准表差值。-->
+  <Barometer No="09051819">00.0,0.0,0.0,0.0,-1.2,0.0</Barometer>
+  <Barometer No="09051818">00.0,0.0,0.0,0.0,-1.2,0.0</Barometer>
+  <Barometer No="09051818">00.0,0.0,0.0,0.0,-1.2,0.0</Barometer>
+  <Barometer No="09051818">00.0,0.0,0.0,0.0,-1.2,0.0</Barometer>
+  <Barometer No="09051818">00.0,0.0,0.0,0.0,-1.2,0.0</Barometer>
+</BarometerVerify>

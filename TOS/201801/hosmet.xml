@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 注释 本文件记录了本期观测使用的气压计和温度计所对应的检定结果 -->
+<VerificationResults>
+<!-- 注释 气压计检定结果 -->
+<BarometerVerificationResults>
+    <!-- 注释 第1个气压计 编号、出厂编号、检定证号等 -->
+    <Barometer BarometerNo="09051819"  CertificateNo="GQJ(V)QY2016-0460" Name="空盒气压表" Type="DYM3" Manufacturer="宁波市鄞州姜山玻璃仪器仪表长">
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">-0.07</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">-0.4</SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <BaroValue>1050,+0.6</BaroValue>    
+            <BaroValue>1040,+0.5</BaroValue>
+            <BaroValue>1030,+0.4</BaroValue>
+            <BaroValue>1020,+0.3</BaroValue>
+            <BaroValue>1010,+0.2</BaroValue>
+            <BaroValue>1000,0.0</BaroValue>
+            <BaroValue>990,-0.2</BaroValue>
+            <BaroValue>980,-0.5</BaroValue>
+            <BaroValue>970,-0.7</BaroValue>
+            <BaroValue>960,-0.9</BaroValue>
+            <BaroValue>950,-0.8</BaroValue>
+            <BaroValue>940,-0.6</BaroValue>
+            <BaroValue>930,-0.5</BaroValue>
+            <BaroValue>920,-0.3</BaroValue>
+            <BaroValue>910,-0.2</BaroValue>
+            <BaroValue>900,0.0</BaroValue>
+            <BaroValue>890,+0.1</BaroValue>
+            <BaroValue>880,+0.3</BaroValue>
+            <BaroValue>870,+0.4</BaroValue>
+            <BaroValue>860,+0.6</BaroValue>
+        </CorrectValue>
+    </Barometer>
+    <!-- 注释 第2个气压计 出厂编号、检定证号等 -->
+    <Barometer BarometerNo="170484"  CertificateNo="RGqy1700162" Name="空盒气压表" Type="DYM3" Manufacturer="天津凤洋仪器仪表工贸有限公司">
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">-0.07</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">-0.4</SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <BaroValue>1050,+0.6</BaroValue>    
+            <BaroValue>1040,+0.5</BaroValue>
+            <BaroValue>1030,+0.4</BaroValue>
+            <BaroValue>1020,+0.3</BaroValue>
+            <BaroValue>1010,+0.2</BaroValue>
+            <BaroValue>1000,0.0</BaroValue>
+            <BaroValue>990,-0.2</BaroValue>
+            <BaroValue>980,-0.5</BaroValue>
+            <BaroValue>970,-0.7</BaroValue>
+            <BaroValue>960,-0.9</BaroValue>
+            <BaroValue>950,-0.8</BaroValue>
+            <BaroValue>940,-0.6</BaroValue>
+            <BaroValue>930,-0.5</BaroValue>
+            <BaroValue>920,-0.3</BaroValue>
+            <BaroValue>910,-0.2</BaroValue>
+            <BaroValue>900,0.0</BaroValue>
+            <BaroValue>890,+0.1</BaroValue>
+            <BaroValue>880,+0.3</BaroValue>
+            <BaroValue>870,+0.4</BaroValue>
+            <BaroValue>860,+0.6</BaroValue>
+        </CorrectValue>
+    </Barometer>
+
+</BarometerVerificationResults>
+
+<!-- 注释 干湿温度计检定结果 -->
+<ThermometerVerificationResults>
+    <!-- 注释 第1个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="80891" CertificateNo="GQJ(V)ZH2016-0001" Name="机械式通风干湿表" Type="DHM2" Manufacturer="天津凤洋仪器仪表工贸有限公司">
+       <!-- 注释 干温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <DryCorrectValue ThermometerNo="27460" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+             <DryTempValue>-20.0,-17.5,+0.1</DryTempValue>  
+            <DryTempValue>-17.4,-12.5,0.0</DryTempValue>
+            <DryTempValue>-12.4,-5.0,-0.1</DryTempValue>
+			<DryTempValue>-4.9,+32.5,0.0</DryTempValue>
+			<DryTempValue>+32.6,+37.5,-0.1</DryTempValue>
+			<DryTempValue>+37.6,+40.0,-0.2</DryTempValue>
+        </DryCorrectValue>
+        <!-- 注释 湿温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <WetCorrectValue ThermometerNo="27290" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <WetTempValue>-20.0,+5.0,-0.1</WetTempValue>  
+            <WetTempValue>+5.1,+35.0,0.0</WetTempValue>
+            <WetTempValue>+35.1,+40.0,-0.1</WetTempValue>
+        </WetCorrectValue>
+    </Thermometer>
+    <!-- 注释 第2个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="14293"  CertificateNo="京气检字第17-24号" Name="机械式通风干湿表" Type="DHM2" Manufacturer="天津凤洋仪器仪表工贸有限公司">
+        <!-- 注释 干温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <DryCorrectValue ThermometerNo="346" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <DryTempValue>-20.0,-17.5,+0.1</DryTempValue>  
+            <DryTempValue>-17.4,-12.5,0.0</DryTempValue>
+            <DryTempValue>-12.4,-5.0,-0.1</DryTempValue>
+			<DryTempValue>-4.9,+32.5,0.0</DryTempValue>
+			<DryTempValue>+32.6,+37.5,-0.1</DryTempValue>
+			<DryTempValue>+37.6,+40.0,-0.2</DryTempValue>
+        </DryCorrectValue>
+        <!-- 注释 湿温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <WetCorrectValue ThermometerNo="325" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <WetTempValue>-20.0,+5.0,-0.1</WetTempValue>  
+            <WetTempValue>+5.1,+35.0,0.0</WetTempValue>
+            <WetTempValue>+35.1,+40.0,-0.1</WetTempValue>
+        </WetCorrectValue>
+    </Thermometer>
+</ThermometerVerificationResults>
+
+
+</VerificationResults>

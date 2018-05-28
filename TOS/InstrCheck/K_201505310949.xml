@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?><!-- 注释 加常数K -->
+<KConstant><!-- 注释 本次任务的测量单位的名称、ID -->
+  <workplace name="中国地震局第二监测中心" id="2013322003033" /><!-- 注释 计算时间 -->
+  <DateTime DataTime="2015-05-31 09:49:27" /><!-- 注释 仪器 信息 -->
+  <Instrument InstrumentType="TC2003 №100123456" /><!-- 注释 本次计算加常数K所需要的原始观测值-->
+  <observedvalue measuringUnit="m">
+    <value sidename="01">16.83433</value>
+    <value sidename="02">36.70943</value>
+    <value sidename="03">50.30187</value>
+    <value sidename="04">74.30775</value>
+    <value sidename="12">19.88450</value>
+    <value sidename="13">33.47655</value>
+    <value sidename="14">57.48252</value>
+    <value sidename="23">13.60179</value>
+    <value sidename="24">37.60765</value>
+    <value sidename="34">24.01531</value>
+  </observedvalue><!-- 注释 改正数 V（mm）-->
+  <CorrectedNum measuringUnit="mm">
+    <value sidename="01">+0.12</value>
+    <value sidename="02">+0.02</value>
+    <value sidename="03">-0.09</value>
+    <value sidename="04">-0.04</value>
+    <value sidename="12">-0.13</value>
+    <value sidename="13">+0.15</value>
+    <value sidename="14">+0.1</value>
+    <value sidename="23">-0.08</value>
+    <value sidename="24">-0.03</value>
+    <value sidename="34">-0.02</value>
+  </CorrectedNum>
+<!-- 注释 本次计算加常数K,M,Mk,∑[VV] -->
+<result K="-9.38" M="0.1277" Mk="±0.09" SumVV="0.08" /></KConstant>
