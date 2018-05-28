@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 注释 本次任务的名称、ID和期数 -->
+<task name="2016年第1次"  taskid="2016001" periodoftask="201601">
+
+<!-- 注释 本次任务的测量单位的名称、ID -->
+<workplace name="中国地震局第二监测中心"  id="2013322003033"/>
+
+<!-- 注释 本次任务的观测小组 信息及成员信息 -->   
+<groups>
+    <group name="D102" id="07080807" >
+    <member name="赵峰" id="610121197001018766"/>
+    <member name="杨宏伟" id="610121196001011010"/>
+    <member name="唐红涛" id="610121197801011011"/>
+    </group>
+    <group name="D331" id="07080808" >
+    <member name="梅景超" id="610121197001018755"/>
+    <member name="杨宏伟" id="610121196001011033"/>
+    </group>
+</groups>
+
+<!-- 注释 本次任务的场地 信息及点位情况、高程 -->   
+<grounds>
+    <ground name="三塘" code="st" id="100100" latitude="37.04.3" longitude="104.03.0">
+        <point name="A" id="200107" altitude="1.33290"/>
+        <point name="B" id="200107" altitude="11.55890"/>
+        <point name="C" id="200107" altitude="3.49190"/>
+        <point name="D" id="200108" altitude="-2.42810"/>
+    </ground>
+    <ground name="松山" code="ss" id="100100" latitude="37.08.7" longitude="103.27.0">
+        <point name="A" id="200107" altitude="1.34670"/>
+        <point name="B" id="200107" altitude="8.16200"/>
+        <point name="C" id="200107" altitude="28.91920"/>
+        <point name="D" id="200108" altitude="37.24930"/>
+    </ground>
+    <ground name="乌鞘岭" code="wsl" id="100100" latitude="37.12.2" longitude="102.52.0">
+        <point name="A" id="200107" altitude="1.30130"/>
+        <point name="B" id="200107" altitude="19.10120"/>
+        <point name="C" id="200107" altitude="8.08040"/>
+        <point name="D" id="200108" altitude="-13.16470"/>
+    </ground>
+    <ground name="白土庄" code="btz" id="100100" latitude="37.23.4" longitude="102.57.1">
+        <point name="C" id="200107" altitude="1.36450"/>
+        <point name="B" id="200107" altitude="22.58340"/>
+        <point name="D" id="200108" altitude="4.67820"/>
+    </ground>
+    <ground name="芨岭东" code="jld" id="100100" latitude="38.33.0" longitude="101.47.3">
+        <point name="A" id="200107" altitude="0.00000"/>
+        <point name="B" id="200107" altitude="-2.52270"/>
+        <point name="C" id="200107" altitude="-13.71360"/>
+        <point name="D" id="200108" altitude="-4.4866"/>
+    </ground>
+    <ground name="扁都口" code="bdk" id="100100" latitude="38.12.6" longitude="100.56.1">
+        <point name="A" id="200107" altitude="0.00000"/>
+        <point name="A2" id="200108" altitude="-2.21270"/>
+        <point name="B" id="200109" altitude="0.42850"/>
+    </ground>
+    <ground name="西岔河" code="xch" id="100100" latitude="39.00.0" longitude="099.23.5">
+        <point name="JD" id="200107" altitude="0.00000"/>
+        <point name="JX" id="200107" altitude="6.31990"/>
+        <point name="JD2" id="200107" altitude="0.00000"/>
+        <point name="JX2" id="200108" altitude="2.29570"/>
+    </ground>
+    <ground name="金塔南" code="jtn" id="100100" latitude="39.54.0" longitude="098.53.4">
+        <point name="A" id="200107" altitude="0.00000"/>
+        <point name="B" id="200107" altitude="7.38930"/>
+        <point name="C" id="200107" altitude="-0.29142"/>
+        <point name="D" id="200108" altitude="-0.35834"/>
+    </ground>
+    <ground name="嘉峪关" code="jyg" id="100100" latitude="39.47.5" longitude="098.13.7">
+        <point name="C" id="200107" altitude="0.00000"/>
+        <point name="B" id="200107" altitude="0.69580"/>
+        <point name="A" id="200107" altitude="10.76670"/>
+        <point name="S" id="200108" altitude="3.43420"/>
+    </ground>
+    <ground name="大黄沟" code="dhg" id="100100" latitude="39.38.6" longitude="098.00.8">
+        <point name="A" id="200107" altitude="19.26818"/>
+        <point name="B" id="200107" altitude="18.11072"/>
+        <point name="C" id="200107" altitude="10.03903"/>
+        <point name="D" id="200108" altitude="13.55326"/>
+        <point name="W" id="200102" altitude="1.21872"/>
+        <point name="E" id="200103" altitude="0.78434"/>
+    </ground>
+    <ground name="大泉口" code="dqk" id="100100" latitude="39.30.3" longitude="097.41.7">
+        <point name="A" id="200107" altitude="0.00000"/>
+        <point name="B" id="200107" altitude="1.77940"/>
+        <point name="C" id="200107" altitude="5.54590"/>
+        <point name="D" id="200108" altitude="8.57880"/>
+        <point name="G" id="200107" altitude="5.72640"/>
+        <point name="E" id="200107" altitude="4.53060"/>
+        <point name="F" id="200108" altitude="-0.95370"/>
+    </ground>
+    <ground name="红柳峡" code="hlx" id="100100" latitude="39.57.7" longitude="097.13.6">
+        <point name="W" id="200107" altitude="0.00000"/>
+        <point name="A" id="200107" altitude="5.54480"/>
+        <point name="S" id="200108" altitude="-0.98520"/>
+    </ground>
+    <ground name="西安1" code="xa1" id="100100" latitude="34.12.9" longitude="108.58.7">
+        <point name="J00" id="200107" altitude="0.00000"/>
+        <point name="J01" id="200107" altitude="-0.00145"/>
+        <point name="J02" id="200107" altitude="-0.00080"/>
+        <point name="J03" id="200108" altitude="0.00840"/>
+        <point name="J04" id="200108" altitude="0.01415"/>
+    </ground>
+     <ground name="西安2" code="xa2" id="100100" latitude="34.12.9" longitude="108.58.7">
+        <point name="J00" id="200107" altitude="0.00000"/>
+        <point name="J01" id="200107" altitude="0.00000"/>
+        <point name="J02" id="200107" altitude="0.00000"/>
+        <point name="J03" id="200108" altitude="0.00000"/>
+        <point name="J04" id="200108" altitude="0.00000"/>
+    </ground>
+     <ground name="西安3" code="xa3" id="100100" latitude="34.12.9" longitude="108.58.7">
+        <point name="J00" id="200107" altitude="0.00000"/>
+        <point name="J01" id="200107" altitude="0.00000"/>
+        <point name="J02" id="200107" altitude="0.00000"/>
+        <point name="J03" id="200108" altitude="0.00000"/>
+        <point name="J04" id="200108" altitude="0.00000"/>
+    </ground>
+     <ground name="西安4" code="xa4" id="100100" latitude="34.12.9" longitude="108.58.7">
+        <point name="J00" id="200107" altitude="0.00000"/>
+        <point name="J01" id="200107" altitude="0.00000"/>
+        <point name="J02" id="200107" altitude="0.00000"/>
+        <point name="J03" id="200108" altitude="0.00000"/>
+        <point name="J04" id="200108" altitude="0.00000"/>
+    </ground>
+</grounds>
+
+<!-- 注释 观测仪器 信息 将来可以添加上乘加常数-->
+<ObservationInstruments>
+    <Instrument Name="TC2003 442583" brandname="Leica" model="TC2003" sn="442583" instruid="100123456" /> 
+</ObservationInstruments>
+
+<!-- 注释 频率计 信息 -->
+<FrequencyMeters>
+    <FreqMeter Name="EFC-5 15300" brandname="长沙市莱塞光电子技术研究所" model="EFC-5" sn="15330" instruid="100123457" /> 
+</FrequencyMeters>
+
+<!-- 注释 反射棱镜 信息 -->
+<Mirrors>
+    <Mirror mirrorname="0号组" mirrorno="0"/>
+    <Mirror mirrorname="1号组" mirrorno="1"/>
+    <Mirror mirrorname="2号组" mirrorno="2"/>
+    <Mirror mirrorname="3号组" mirrorno="3"/>
+    <Mirror mirrorname="4号组" mirrorno="4"/>
+    <Mirror mirrorname="5号组" mirrorno="5"/>
+    <Mirror mirrorname="6号组" mirrorno="6"/>
+</Mirrors>
+
+<!-- 注释 气压计温度编组号 -->
+<BarometerThermometerGroups>
+    <BaroTherGroup name="0组" code="0" BarometerNo="0296" ThermometerNo="761468"/>
+    <BaroTherGroup name="1组" code="1" BarometerNo="0214" ThermometerNo="730260"/>
+    <BaroTherGroup name="2组" code="2" BarometerNo="2837" ThermometerNo="760843"/>
+    <BaroTherGroup name="3组" code="3" BarometerNo="2842" ThermometerNo="760738"/>
+    <BaroTherGroup name="4组" code="4" BarometerNo="2069" ThermometerNo="730341"/>
+    <BaroTherGroup name="5组" code="5" BarometerNo="2853" ThermometerNo="791465"/>
+    <BaroTherGroup name="6组" code="6" BarometerNo="2849" ThermometerNo="675461"/>
+</BarometerThermometerGroups>
+</task>

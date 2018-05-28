@@ -1,0 +1,5 @@
+DATABASEDIR = D:\liuwlCloud\1-工作\2018年项目\基线测量成果\TOS\201804\zsy
+INIFILE = D:\liuwlCloud\1-工作\2018年项目\基线测量成果\跨断层红外测距辅助程序 Ver0.99_需要.net framework 2.0支持\201804.ini
+RESULTDIR = D:\liuwlCloud\1-工作\2018年项目\基线测量成果\观测手簿\201804
+INSTRCHKBASEDIR = E:\workspaces\跨断层红外测距成果计算输出程序\2015红外资料\TOS\201501\InstrCheck
+INSTRCHKRESULTDIR = C:\Users\xyz\Desktop

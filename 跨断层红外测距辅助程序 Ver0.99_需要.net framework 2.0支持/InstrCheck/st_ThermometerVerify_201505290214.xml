@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?><!-- 注释 温度表校核 -->
+<ThermometerVerify><!-- 注释 本次任务的测量单位的名称、ID -->
+  <workplace name="中国地震局第二监测中心" id="2013322003033" /><!-- 注释 本次任务的观测小组 信息及观测员记录员信息 -->
+  <group name="D102" id="07080807">
+    <obsever name="赵峰" id="610121197001018766" />
+    <recorder name="杨宏伟" id="610121196001011010" />
+  </group><!-- 注释 本次任务的场地 信息 -->
+  <ground name="三塘" code="st" id="100100" latitude="37.04.3" longitude="104.03.0" /><!-- 注释 Thermometer的属性No是表号，第一个Thermometer是标准表。--><!-- 注释 Thermometer中的个4个数分别读数,刻划改正,改正后温度值,与标准表差值。-->
+  <Thermometer No="761468">00.0,0.1,0.1,0.0</Thermometer>
+  <Thermometer No="730260">00.0,0.1,0.1,0.0</Thermometer>
+  <Thermometer No="760843">00.0,0.0,0.0,-0.1</Thermometer>
+</ThermometerVerify>

@@ -1,0 +1,5 @@
+DATABASEDIR = E:\workspaces\跨断层红外测距成果计算输出程序\云南测试\ss
+INIFILE = E:\workspaces\跨断层红外测距成果计算输出程序\InfraredDistanceToolkit\InfraredDistanceToolkit\bin\Debug\2014.ini
+RESULTDIR = C:\Users\xyz\Desktop
+INSTRCHKBASEDIR = E:\workspaces\跨断层红外测距成果计算输出程序\2015红外\2015红外资料\TOS\201501\InstrCheck
+INSTRCHKRESULTDIR = C:\Users\xyz\Desktop
