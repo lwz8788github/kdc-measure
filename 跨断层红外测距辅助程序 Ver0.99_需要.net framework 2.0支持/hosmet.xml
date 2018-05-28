@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 注释 本文件记录了本期观测使用的气压计和温度计所对应的检定结果 -->
+<VerificationResults>
+<!-- 注释 气压计检定结果 -->
+<BarometerVerificationResults>
+    <!-- 注释 第1个气压计 编号、出厂编号、检定证号等 -->
+    <Barometer BarometerNo="61273045"  CertificateNo="陕气检P14-111" Name="高原空盒气压表" Type="DYM3-1" Manufacturer="长春气象仪器厂">
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">+0.10</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">+0.4</SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <BaroValue>1010,-0.8</BaroValue>    
+            <BaroValue>1000,-0.1</BaroValue>
+            <BaroValue>990,-0.4</BaroValue>
+            <BaroValue>980,-0.0</BaroValue>
+            <BaroValue>970,-0.1</BaroValue>
+            <BaroValue>960,-0.1</BaroValue>
+            <BaroValue>950,-0.1</BaroValue>
+            <BaroValue>940,-0.1</BaroValue>
+            <BaroValue>930,-0.1</BaroValue>
+            <BaroValue>920,-0.1</BaroValue>
+            <BaroValue>910,-0.1</BaroValue>
+            <BaroValue>900,-0.1</BaroValue>
+            <BaroValue>890,-0.1</BaroValue>
+            <BaroValue>880,-0.1</BaroValue>
+            <BaroValue>870,-0.1</BaroValue>
+            <BaroValue>860,-0.1</BaroValue>
+            <BaroValue>850,-0.1</BaroValue>
+            <BaroValue>840,-0.1</BaroValue>
+            <BaroValue>830,-0.1</BaroValue>
+            <BaroValue>820,-0.1</BaroValue>
+            <BaroValue>810,-0.1</BaroValue>
+            <BaroValue>800,-0.1</BaroValue>
+            <BaroValue>790,-0.1</BaroValue>
+            <BaroValue>780,-0.1</BaroValue>
+            <BaroValue>770,-0.1</BaroValue>
+            <BaroValue>760,-0.1</BaroValue>
+            <BaroValue>750,-0.1</BaroValue>
+            <BaroValue>740,-0.1</BaroValue>
+            <BaroValue>730,-0.1</BaroValue>
+            <BaroValue>720,-0.1</BaroValue>
+            <BaroValue>710,-0.1</BaroValue>
+            <BaroValue>700,-0.1</BaroValue>
+            <BaroValue>690,-0.1</BaroValue>
+            <BaroValue>680,-0.1</BaroValue>
+            <BaroValue>670,-0.1</BaroValue>
+            <BaroValue>660,-0.1</BaroValue>
+            <BaroValue>650,-0.1</BaroValue>
+            <BaroValue>640,-0.1</BaroValue>
+            <BaroValue>630,-0.1</BaroValue>
+            <BaroValue>620,-0.1</BaroValue>
+            <BaroValue>610,-0.1</BaroValue>
+            <BaroValue>600,-0.1</BaroValue>
+            <BaroValue>590,-0.1</BaroValue>
+            <BaroValue>580,-0.1</BaroValue>
+            <BaroValue>570,-0.1</BaroValue>
+            <BaroValue>560,-0.1</BaroValue>
+            <BaroValue>550,-0.1</BaroValue>
+            <BaroValue>540,-0.1</BaroValue>
+            <BaroValue>530,-0.1</BaroValue>
+            <BaroValue>520,-0.1</BaroValue>
+            <BaroValue>510,-0.1</BaroValue>
+            <BaroValue>500,-0.1</BaroValue>
+            <BaroValue>490,-0.1</BaroValue>
+        </CorrectValue>
+    </Barometer>
+    <!-- 注释 第2个气压计 出厂编号、检定证号等 -->
+    <Barometer BarometerNo="61273046"  CertificateNo="陕气检P14-113" Name="高原空盒气压表" Type="DYM3-1" Manufacturer="长春气象仪器厂">
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">+0.00</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">+0.4 </SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <BaroValue>1010,-0.8</BaroValue>    
+            <BaroValue>1000,-0.1</BaroValue>
+            <BaroValue>990,-0.4</BaroValue>
+            <BaroValue>980,-0.0</BaroValue>
+            <BaroValue>970,-0.1</BaroValue>
+            <BaroValue>960,-0.1</BaroValue>
+            <BaroValue>950,-0.1</BaroValue>
+            <BaroValue>940,-0.1</BaroValue>
+            <BaroValue>930,-0.1</BaroValue>
+            <BaroValue>920,-0.1</BaroValue>
+            <BaroValue>910,-0.1</BaroValue>
+            <BaroValue>900,-0.1</BaroValue>
+            <BaroValue>890,-0.1</BaroValue>
+            <BaroValue>880,-0.1</BaroValue>
+            <BaroValue>870,-0.1</BaroValue>
+            <BaroValue>860,-0.1</BaroValue>
+            <BaroValue>850,-0.1</BaroValue>
+            <BaroValue>840,-0.1</BaroValue>
+            <BaroValue>830,-0.1</BaroValue>
+            <BaroValue>820,-0.1</BaroValue>
+            <BaroValue>810,-0.1</BaroValue>
+            <BaroValue>800,-0.1</BaroValue>
+            <BaroValue>790,-0.1</BaroValue>
+            <BaroValue>780,-0.1</BaroValue>
+            <BaroValue>770,-0.1</BaroValue>
+            <BaroValue>760,-0.1</BaroValue>
+            <BaroValue>750,-0.1</BaroValue>
+            <BaroValue>740,-0.1</BaroValue>
+            <BaroValue>730,-0.1</BaroValue>
+            <BaroValue>720,-0.1</BaroValue>
+            <BaroValue>710,-0.1</BaroValue>
+            <BaroValue>700,-0.1</BaroValue>
+            <BaroValue>690,-0.1</BaroValue>
+            <BaroValue>680,-0.1</BaroValue>
+            <BaroValue>670,-0.1</BaroValue>
+            <BaroValue>660,-0.1</BaroValue>
+            <BaroValue>650,-0.1</BaroValue>
+            <BaroValue>640,-0.1</BaroValue>
+            <BaroValue>630,-0.1</BaroValue>
+            <BaroValue>620,-0.1</BaroValue>
+            <BaroValue>610,-0.1</BaroValue>
+            <BaroValue>600,-0.1</BaroValue>
+            <BaroValue>590,-0.1</BaroValue>
+            <BaroValue>580,-0.1</BaroValue>
+            <BaroValue>570,-0.1</BaroValue>
+            <BaroValue>560,-0.1</BaroValue>
+            <BaroValue>550,-0.1</BaroValue>
+            <BaroValue>540,-0.1</BaroValue>
+            <BaroValue>530,-0.1</BaroValue>
+            <BaroValue>520,-0.1</BaroValue>
+            <BaroValue>510,-0.1</BaroValue>
+            <BaroValue>500,-0.1</BaroValue>
+            <BaroValue>490,-0.1</BaroValue>
+        </CorrectValue>
+    </Barometer>
+</BarometerVerificationResults>
+
+<!-- 注释 干湿温度计检定结果 -->
+<ThermometerVerificationResults>
+    <!-- 注释 第1个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="221228" CertificateNo="TFB13-020" Name="通风干湿表" Type="DHM2" Manufacturer="天津气象海洋仪器厂">
+        <!-- 注释 干温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <DryCorrectValue ThermometerNo="227" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <DryTempValue>-20.0,+5.0,+0.1</DryTempValue>  
+            <DryTempValue>+5.1,+15.0,+0.2</DryTempValue>
+            <DryTempValue>+15.1,+25.0,+0.1</DryTempValue>
+            <DryTempValue>+25.1,+50.0,+0.2</DryTempValue>
+        </DryCorrectValue>
+        <!-- 注释 湿温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <WetCorrectValue ThermometerNo="228" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <WetTempValue>-20.0,+5.0,+0.1</WetTempValue>  
+            <WetTempValue>+5.1,+15.0,+0.2</WetTempValue>
+            <WetTempValue>+15.1,+25.0,+0.1</WetTempValue>
+            <WetTempValue>+25.1,+50.0,+0.2</WetTempValue>
+        </WetCorrectValue>
+    </Thermometer>
+    <!-- 注释 第2个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="221229" CertificateNo="TFB13-021" Name="通风干湿表" Type="DHM2" Manufacturer="天津气象海洋仪器厂">
+        <!-- 注释 干温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <DryCorrectValue ThermometerNo="221" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <DryTempValue>-20.0,+5.0,+0.1</DryTempValue>  
+            <DryTempValue>+5.1,+15.0,+0.2</DryTempValue>
+            <DryTempValue>+15.1,+25.0,+0.1</DryTempValue>
+            <DryTempValue>+25.1,+50.0,+0.2</DryTempValue>
+        </DryCorrectValue>
+        <!-- 注释 湿温示值修正值（一般根据检定证书中的便于使用的修正值）,属性有小表号等 -->
+        <WetCorrectValue ThermometerNo="222" measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <WetTempValue>-20.0,+5.0,+0.1</WetTempValue>  
+            <WetTempValue>+5.1,+15.0,+0.2</WetTempValue>
+            <WetTempValue>+15.1,+25.0,+0.1</WetTempValue>
+            <WetTempValue>+25.1,+50.0,+0.2</WetTempValue>
+        </WetCorrectValue>
+    </Thermometer>
+</ThermometerVerificationResults>
+
+
+
+</VerificationResults>

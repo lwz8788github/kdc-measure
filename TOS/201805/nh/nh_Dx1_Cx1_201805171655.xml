@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<handbook name="2018年第5次" taskid="2018005" periodoftask="201805"><!-- 注释 本次任务的名称、ID和期数 -->
+  <Format version="2.0" /><!-- 手薄格式原来.ALL文件是1.0，从2015年星火项目开始开发新的2.0格式 -->
+  <workplace name="中国地震局第一监测中心" id="152037" /><!-- 注释 本次任务的测量单位的名称、ID -->
+  <group name="小组1" id="00000001"><!-- 注释 本次任务的观测小组 信息及观测员记录员信息 -->
+    <obsever name="赵鹏" id="000000000000000000" />
+    <recorder name="刘文龙" id="372330198702223011" />
+  </group>
+  <ground name="宁河" code="nh" id="LD089" latitude="39.24.0" longitude="117.43.2"><!-- 注释 本次任务的场地 信息及仪器站和镜点位情况、高程 -->
+    <instruStation name="Dx1" id="LD0894" altitude="0.08439" />
+    <mirrorStation name="Cx1" id="LD0893" altitude="0.23391" />
+  </ground>
+  <observationInstrument instruid="000000001" brandname="Leica" model="TS50" sn="370729" /><!-- 注释 观测仪器 信息 将来可以添加上乘加常数 -->
+  <Mirror mirrorname="0号组" mirrorno="0" /><!-- 注释 反射棱镜 信息 -->
+  <InstruBaroTherGroup name="" code="0" BarometerNo="09051819" ThermometerNo="150157" /><!-- 注释 仪器站与镜站气压计温度编组号 -->
+  <MirrorBaroTherGroup name="" code="1" BarometerNo="170484" ThermometerNo="150744" />
+  <LightSegment code="1" /><!-- 注释 光段 -->
+  <ObserveMode name="DIL" /><!-- 注释 观测模式 还有LDIL 将来可以添加上Code -->
+  <observerDateTime start="2018-05-17 16:55:16" end="2018-05-17 16:57:03" /><!-- 注释 本次观测的开始时间和结束时间 北京时间(UTC?) -->
+  <InstruFreq measuringUnit="KHz" beforeObs="100000.00" afterObs="100000.00" /><!-- 注释 测前频率 -->
+  <Weather weathercode="1" weatherstring="晴天" winddirectioncode="*" winddirectionstring="无风" windscalecode="0" windscalestring="0级" visibilitycode="A" visibilitystring="无雾" /><!-- 注释 天气情况、风向、风级、能见度 -->
+  <Baro measuringUnit="mbar"><!-- 注释 仪器站与镜站气压值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过温度改正后对应的气压值 -->
+    <value>1007.0,1006.8439</value>
+    <value>1007.0,1006.8439</value>
+    <value>1007.0,1006.8439</value>
+    <value>1007.0,1006.8439</value>
+  </Baro>
+  <DryTemp measuringUnit="degreesCelsius"><!-- 注释 仪器站与镜站干温值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过改正后对应的干温值 -->
+    <value>25.2,25.200</value>
+    <value>25.2,25.200</value>
+    <value>25.2,25.200</value>
+    <value>25.2,25.200</value>
+  </DryTemp>
+  <WetTemp measuringUnit="degreesCelsius"><!-- 注释 仪器站与镜站湿温值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过改正后对应的湿温值 -->
+    <value>22.2,22.200</value>
+    <value>22.2,22.200</value>
+    <value>22.2,22.200</value>
+    <value>22.2,22.200</value>
+  </WetTemp>
+  <InstrumentHeight measuringUnit="m" value="0.240" /><!-- 注释 仪器高 -->
+  <MirrorHeight measuringUnit="m" value="0.238" /><!-- 注释 镜高 -->
+  <Readings measuringUnit="m"><!-- 注释 观测读数共10个 -->
+    <value>30.8136</value>
+    <value>30.8135</value>
+    <value>30.8135</value>
+    <value>30.8135</value>
+    <value>30.8137</value>
+    <value>30.8134</value>
+    <value>30.8135</value>
+    <value>30.8134</value>
+    <value>30.8136</value>
+    <value>30.8134</value>
+  </Readings>
+  <slantDistance measuringUnit="m" value="30.81397" /><!-- 注释 标志间斜距 -->
+  <horizontalDistance measuringUnit="m" value="30.81361" /><!-- 注释 标志间平距 -->
+</handbook>

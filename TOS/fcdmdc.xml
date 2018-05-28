@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fcdmdc>
+<!-- 注释 手簿存储基础路径 -->
+<StorageBaseDir path="TOS" />    
+
+
+<!-- 注释 观测模式 根据测量技术规定边长小于5KM使用DIL，大于6KM使用LDIL-->
+<observemodes>
+    <ObserveMode name="DIL"/>
+    <ObserveMode name="LDIL"/>
+</observemodes>
+
+<!-- 注释 天气情况 -->
+<weathersituation>
+    <Weather name="晴天" code="1"/>
+    <Weather name="少云" code="2"/>
+    <Weather name="多云" code="3"/>
+    <Weather name="阴天" code="4"/>
+    <Weather name="雨雪" code="5"/>
+</weathersituation>
+
+<!-- 注释 风向 -->
+<winddirections>
+    <WindDirection name="无风" code="*"/>
+    <WindDirection name="北风" code="N"/>
+    <WindDirection name="东风" code="E"/>
+    <WindDirection name="南风" code="S"/>
+    <WindDirection name="西风" code="W"/>
+    <WindDirection name="东北" code="NE"/>
+    <WindDirection name="东南" code="SE"/>
+    <WindDirection name="西北" code="NW"/>
+    <WindDirection name="西南" code="SW"/>
+</winddirections>
+
+<!-- 注释 风级 -->
+<windscales>
+    <WindScale name="0级" code="0"/>
+    <WindScale name="1级" code="1"/>
+    <WindScale name="2级" code="2"/>
+    <WindScale name="3级" code="3"/>
+    <WindScale name="4级" code="4"/>
+    <WindScale name="5级" code="5"/>
+    <WindScale name="6级" code="6"/>
+</windscales>
+
+<!-- 注释 能见度 -->
+<visibility>
+    <Visibility name="无雾" code="A"/>
+    <Visibility name="轻雾" code="B"/>
+    <Visibility name="大雾" code="C"/> 
+</visibility>
+
+<!-- 注释 观测光段 -->
+<NumofObserver>
+    <ObserNum name="1"/>
+    <ObserNum name="2"/>
+    <ObserNum name="3"/>
+    <ObserNum name="4"/>
+    <ObserNum name="5"/>
+    <ObserNum name="6"/>
+</NumofObserver>
+
+<!-- 各种限制条件及限差 -->
+<Limit>    
+    <WeatherLimit  upperlimit ="4" />
+    <WindScaleLimit upperlimit ="5" />
+    <VisibilityLimit upperlimit ="C" />
+    <DryTempLimit lowerlimit ="-25" upperlimit ="45" />
+    <WetTempLimit lowerlimit ="-25" upperlimit ="45" />
+    <BarometricLimit lowerlimit ="800" upperlimit ="1500" />
+</Limit>
+
+</fcdmdc>

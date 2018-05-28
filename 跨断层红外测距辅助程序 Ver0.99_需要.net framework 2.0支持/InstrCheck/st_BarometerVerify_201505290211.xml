@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?><!-- 注释 气压表校核 -->
+<BarometerVerify><!-- 注释 本次任务的测量单位的名称、ID -->
+  <workplace name="中国地震局第二监测中心" id="2013322003033" /><!-- 注释 本次任务的观测小组 信息及观测员记录员信息 -->
+  <group name="D102" id="07080807">
+    <obsever name="赵峰" id="610121197001018766" />
+    <recorder name="杨宏伟" id="610121196001011010" />
+  </group><!-- 注释 本次任务的场地 信息 -->
+  <ground name="三塘" code="st" id="100100" latitude="37.04.3" longitude="104.03.0" /><!-- 注释 Barometer的属性No是表号，第一个Barometer是标准表。--><!-- 注释 Barometer中的个4个数分别读数,刻划改正,温度改正,补充改正,改正后气压值,与标准表差值。-->
+  <Barometer No="0296">00.0,0.0,0.0,0.0,2.147483647E8,0.0</Barometer>
+  <Barometer No="0214">00.0,0.0,0.0,0.0,2.147483647E8,0.0</Barometer>
+</BarometerVerify>

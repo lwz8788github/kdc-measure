@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<handbook name="2018年第5次" taskid="2018005" periodoftask="201805"><!-- 注释 本次任务的名称、ID和期数 -->
+  <Format version="2.0" encryption="DES" /><!-- 手薄格式原来.ALL文件是1.0，从2015年星火项目开始开发新的2.0格式 -->
+  <workplace name="r3Z0nRxkh8vzyDAjizKPCw9xzEfFLdTRdZP3m/xx06onWu5atixyQw==&#10;" id="pXb8q1HQFiY=&#10;" /><!-- 注释 本次任务的测量单位的名称、ID -->
+  <group name="ZYVpWkTjhBc=&#10;" id="epMqux4PU9NV3EMNMteCPQ==&#10;"><!-- 注释 本次任务的观测小组 信息及观测员记录员信息 -->
+    <obsever name="vcm38gMzhn3ZGGUnAhlK2Q==&#10;" id="fXYZXyIi6/BdF+Ov/oEk7TKZL9LEmWAX&#10;" />
+    <recorder name="Y/T1jH2gRw8/+9tGnaZtkA==&#10;" id="uka0ezQvNA2OVqOHDMGxB0HYTsi7xzGx&#10;" />
+  </group>
+  <ground name="djNRC/MEpGqDeuXE1lV5xA==&#10;" code="CKgkJLcTgAU=&#10;" id="QPHaQFFqQPo=&#10;" latitude="2XnkpRfVZEw=&#10;" longitude="1p1VwWFXMOQoltCuuXTGUg==&#10;"><!-- 注释 本次任务的场地 信息及仪器站和镜点位情况、高程 -->
+    <instruStation name="C2VpyL6hjyA=&#10;" id="75ZXGhYHxTw=&#10;" altitude="jUB0SbfivJQ=&#10;" />
+    <mirrorStation name="M3yIK+k54g4=&#10;" id="nVqoYPC/CVw=&#10;" altitude="MHlDo4VRdCc=&#10;" />
+  </ground>
+  <observationInstrument instruid="GSmQ3PLLQbzEbKaIuoKegQ==&#10;" brandname="FWnRrQ2GFJM=&#10;" model="hyOdlT3rmj0=&#10;" sn="RCCAMdb1zOs=&#10;" /><!-- 注释 观测仪器 信息 将来可以添加上乘加常数 -->
+  <Mirror mirrorname="D/8Kjjd+iCU=&#10;" mirrorno="bFOs4BAZj/k=&#10;" /><!-- 注释 反射棱镜 信息 -->
+  <InstruBaroTherGroup name="PHc4Zn1nosc=&#10;" code="bFOs4BAZj/k=&#10;" BarometerNo="R3XE/GsoJz0Qzlit5/4HAQ==&#10;" ThermometerNo="Qx6tmnq0erQ=&#10;" /><!-- 注释 仪器站与镜站气压计温度编组号 -->
+  <MirrorBaroTherGroup name="PHc4Zn1nosc=&#10;" code="uJGhCbQq1Yc=&#10;" BarometerNo="v94FjjJCnP4=&#10;" ThermometerNo="nvDn6PxB8Vg=&#10;" />
+  <LightSegment code="uJGhCbQq1Yc=&#10;" /><!-- 注释 光段 -->
+  <ObserveMode name="HBtEU42gg+g=&#10;" /><!-- 注释 观测模式 还有LDIL 将来可以添加上Code -->
+  <observerDateTime start="KgLZvfgmCOMxCfU5AxIzkT4ksbzGotQH&#10;" end="KgLZvfgmCOOMrPEnSwUNWB0OHhh3ITJu&#10;" /><!-- 注释 本次观测的开始时间和结束时间 北京时间(UTC?) -->
+  <InstruFreq measuringUnit="KHz" beforeObs="LFpTzPcHdqlQA778qT1pzA==&#10;" afterObs="LFpTzPcHdqlQA778qT1pzA==&#10;" /><!-- 注释 测前频率 -->
+  <Weather weathercode="uJGhCbQq1Yc=&#10;" weatherstring="xRGBLeh50EU=&#10;" winddirectioncode="GGjD+TIjEy8=&#10;" winddirectionstring="3lxge+01uuE=&#10;" windscalecode="bFOs4BAZj/k=&#10;" windscalestring="LpIwU+DymqY=&#10;" visibilitycode="3cOCBRYuc4I=&#10;" visibilitystring="/K/yvWcQmn4=&#10;" /><!-- 注释 天气情况、风向、风级、能见度 -->
+  <Baro measuringUnit="mbar"><!-- 注释 仪器站与镜站气压值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过温度改正后对应的气压值 -->
+    <value>zeuJ0SdarwSldgpcn3Cp6g==
+</value>
+    <value>zeuJ0SdarwSldgpcn3Cp6g==
+</value>
+    <value>zeuJ0SdarwSldgpcn3Cp6g==
+</value>
+    <value>zeuJ0SdarwSldgpcn3Cp6g==
+</value>
+  </Baro>
+  <DryTemp measuringUnit="degreesCelsius"><!-- 注释 仪器站与镜站干温值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过改正后对应的干温值 -->
+    <value>0mR3/UI/MO/ObzCW96Rpcw==
+</value>
+    <value>0mR3/UI/MO/ObzCW96Rpcw==
+</value>
+    <value>0mR3/UI/MO/ObzCW96Rpcw==
+</value>
+    <value>0mR3/UI/MO/ObzCW96Rpcw==
+</value>
+  </DryTemp>
+  <WetTemp measuringUnit="degreesCelsius"><!-- 注释 仪器站与镜站湿温值4个数 分别是 仪器站测前、测中、镜站测前、测中；逗号后面的是经过改正后对应的湿温值 -->
+    <value>7LrDkM8bFSp6o+BnhTDQiA==
+</value>
+    <value>7LrDkM8bFSp6o+BnhTDQiA==
+</value>
+    <value>7LrDkM8bFSp6o+BnhTDQiA==
+</value>
+    <value>7LrDkM8bFSp6o+BnhTDQiA==
+</value>
+  </WetTemp>
+  <InstrumentHeight measuringUnit="m" value="tGEdV5aoOR0=&#10;" /><!-- 注释 仪器高 -->
+  <MirrorHeight measuringUnit="m" value="HETQrLYYtAk=&#10;" /><!-- 注释 镜高 -->
+  <Readings measuringUnit="m"><!-- 注释 观测读数共10个 -->
+    <value>uTWtOcoIXXI=
+</value>
+    <value>ZR+xG4+PSpI=
+</value>
+    <value>ZR+xG4+PSpI=
+</value>
+    <value>ZR+xG4+PSpI=
+</value>
+    <value>uTWtOcoIXXI=
+</value>
+    <value>uTWtOcoIXXI=
+</value>
+    <value>uTWtOcoIXXI=
+</value>
+    <value>uTWtOcoIXXI=
+</value>
+    <value>lshMhl3BVDA=
+</value>
+    <value>ZR+xG4+PSpI=
+</value>
+  </Readings>
+  <slantDistance measuringUnit="m" value="TJdR/SiCy41kEIfkP8Dsbg==&#10;" /><!-- 注释 标志间斜距 -->
+  <horizontalDistance measuringUnit="m" value="Ccw/3qFQK6i0Av4iUNoiYA==&#10;" /><!-- 注释 标志间平距 -->
+</handbook>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 注释 本次任务的名称、ID和期数 -->
+<task name="2018年第4次"  taskid="2018004" periodoftask="201804">
+
+<!-- 注释 本次任务的测量单位的名称、ID -->
+<workplace name="中国地震局第一监测中心"  id="152037"/>
+
+<!-- 注释 本次任务的观测小组 信息及成员信息 -->   
+<groups>
+    <group name="小组1" id="00000001" >
+        <member name="吕健" id="370702198505272214"/>
+		<member name="刘文龙" id="372330198702223011"/>
+		<member name="赵鹏" id="000000000000000000"/>
+		<member name="徐凯" id="120106198608205512"/>
+		<member name="杜石磊" id="120224198808295530"/>   
+	</group>
+    <group name="小组2" id="00000002" ></group>
+</groups>
+
+<!-- 注释 本次任务的场地 信息及点位情况、高程 -->   
+<grounds>
+	<ground name="仪检" code="yj" id="LD022" latitude="38.59.1" longitude="117.34.5">
+        <point name="1" id="LD0221" altitude="0.00000"/>
+		<point name="5" id="LD0222" altitude="0.00000"/>
+		<point name="6" id="LD0223" altitude="0.00000"/>
+		<point name="7" id="LD0224" altitude="0.00000"/>
+		<point name="8" id="LD0225" altitude="0.00000"/>
+		<point name="9" id="LD0226" altitude="0.00000"/>
+		<point name="11" id="LD0227" altitude="0.00000"/>
+    </ground>
+		<ground name="墙子路" code="qzl" id="LD087" latitude="40.25.5" longitude="117.13.2">
+        <point name="N" id="LD0871" altitude="0.00000"/>
+		<point name="S" id="LD0872" altitude="0.00000"/>
+		<point name="EN" id="LD0873" altitude="0.00000"/>
+		<point name="WS" id="LD0874" altitude="0.00000"/>
+		<point name="Nx1" id="LD0875" altitude="0.00000"/>
+		<point name="Sx1" id="LD0876" altitude="0.51229"/>
+		<point name="ENx1" id="LD0877" altitude="0.78976"/>
+		<point name="WSx1" id="LD0878" altitude="0.00000"/>
+    </ground>
+	<ground name="古北口" code="gbk" id="LD085" latitude="40.40.3" longitude="117.11.9">
+        <point name="Nx1" id="LD0851" altitude="29.7390"/>
+		<point name="Sx1" id="LD0852" altitude="0.00000"/>
+    </ground>
+	<ground name="张家台" code="zjt" id="LD092" latitude="40.22.2" longitude="117.09.0">
+        <point name="N" id="LD0921" altitude="0.00000"/>
+		<point name="S" id="LD0922" altitude="0.00000"/>
+		<point name="W" id="LD0923" altitude="0.00000"/>
+		<point name="E" id="LD0924" altitude="0.00000"/>
+		<point name="Nx1" id="LD0925" altitude="0.00000"/>
+		<point name="Sx1" id="LD0926" altitude="1.97106"/>
+		<point name="Wx1" id="LD0927" altitude="0.00000"/>
+		<point name="Ex1" id="LD0928" altitude="1.74484"/>
+    </ground>
+	<ground name="张山营" code="zsy" id="LD093" latitude="40.31.2" longitude="115.52.2">
+        <point name="Ex1" id="LD0931" altitude="1.60418"/>
+		<point name="Wx1" id="LD0932" altitude="0.00000"/>
+		<point name="W" id="LD0933" altitude="0.00000"/>
+    </ground>
+	<ground name="小水峪" code="xsy" id="LD091" latitude="40.30.0" longitude="115.31.8">
+        <point name="W2x1" id="LD0911" altitude="10.06878"/>
+		<point name="W" id="LD0912" altitude="0.00000"/>
+		 <point name="N" id="LD0913" altitude="1.14255"/>
+		<point name="E" id="LD0914" altitude="0.00000"/>
+    </ground>
+	<ground name="施庄" code="sz" id="LD095" latitude="40.15.0" longitude="115.37.2">
+        <point name="W" id="LD0951" altitude="0.00000"/>
+		<point name="E" id="LD0952" altitude="0.00000"/>
+		<point name="Wx1" id="LD0953" altitude="0.00000"/>
+		<point name="Ex1" id="LD0954" altitude="1.50695"/>
+    </ground>
+	<ground name="德胜口" code="dsk" id="LD094" latitude="40.18.0" longitude="116.10.8">
+        <point name="E" id="LD0941" altitude="0.00000"/>
+		<point name="W" id="LD0942" altitude="0.00000"/>
+		<point name="Ex1" id="LD0943" altitude="0.00000"/>
+		<point name="Wx1" id="LD0944" altitude="3.14736"/>
+    </ground>
+	<ground name="燕家台" code="yjt" id="LD098" latitude="40.00.0" longitude="115.34.2">
+        <point name="Wx1" id="LD0981" altitude="1.02251"/>
+		<point name="Sx1" id="LD0982" altitude="0.00000"/>
+		<point name="Nx1" id="LD0983" altitude="2.06922"/>
+		<point name="W" id="LD0984" altitude="0.00000"/>
+		<point name="S1" id="LD0985" altitude="0.00000"/>
+		<point name="N" id="LD0986" altitude="0.00000"/>
+	</ground>
+	<ground name="大灰厂" code="dhc" id="LD088" latitude="39.51.0" longitude="116.07.2">
+        <point name="S" id="LD0881" altitude="0.00000"/>
+		<point name="W" id="LD0882" altitude="0.00000"/>
+		<point name="N" id="LD0883" altitude="0.00000"/>
+		<point name="E" id="LD0884" altitude="0.00000"/>
+		<point name="Sx1" id="LD0885" altitude="0.80777"/>
+		<point name="Wx1" id="LD0886" altitude="0.00000"/>
+		<point name="Nx1" id="LD0887" altitude="1.68507"/>
+		<point name="Ex1" id="LD0888" altitude="1.58534"/>
+    </ground>
+	 <ground name="八宝山" code="bbs" id="LD081" latitude="39.55.2" longitude="116.13.8">
+        <point name="Nx1" id="LD0811" altitude="0.01045"/>
+		<point name="Sx1" id="LD0812" altitude="0.00000"/>
+		<point name="Ex1" id="LD0813" altitude="0.00992"/>
+        <point name="1x1" id="LD0814" altitude="0.00000"/>
+    </ground>
+	<ground name="上万" code="sw" id="LD079" latitude="39.48.0" longitude="116.01.2">
+        <point name="N" id="LD0791" altitude="0.00000"/>
+		<point name="W" id="LD0792" altitude="0.00000"/>
+		<point name="E" id="LD0793" altitude="0.00000"/>
+		<point name="E1" id="LD0794" altitude="0.00000"/>
+		<point name="Nx1" id="LD0795" altitude="0.00000"/>
+		<point name="Wx1" id="LD0796" altitude="0.30769"/>
+		<point name="Ex1" id="LD0797" altitude="0.31068"/>
+		<point name="E1x1" id="LD0798" altitude="0.00000"/>
+    </ground>
+	<ground name="宁河" code="nh" id="LD089" latitude="39.24.0" longitude="117.43.2">
+		<point name="Ax1" id="LD0891" altitude="0.00000"/>
+		<point name="Bx1" id="LD0892" altitude="0.33111"/>
+		<point name="Cx1" id="LD0893" altitude="0.23391"/>
+		<point name="Dx1" id="LD0894" altitude="0.08439"/>
+    </ground>
+</grounds>
+
+<!-- 注释 观测仪器 信息 将来可以添加上乘加常数-->
+<ObservationInstruments>
+	<Instrument Name="TS50 370729" brandname="Leica" model="TS50" sn="370729" instruid="000000001" /> 
+</ObservationInstruments>
+
+<!-- 注释 观测仪器 信息 将来可以添加上乘加常数-根据二测赵工说可以先不管-->
+<FrequencyMeters>
+    <FreqMeter Name="EFC-5 15300" brandname="长沙市莱塞光电子技术研究所" model="EFC-5" sn="15330" instruid="100123457" /> 
+</FrequencyMeters>
+
+<!-- 注释 反射棱镜 信息 -->
+<Mirrors>
+    <Mirror mirrorname="0号组" mirrorno="0"/>
+	<Mirror mirrorname="1号组" mirrorno="1"/>
+</Mirrors>
+
+<!-- 注释 气压计温度编组号 -->
+<BarometerThermometerGroups>
+    <BaroTherGroup name="0组" code="0" BarometerNo="09051819" ThermometerNo="150157"/>
+	<BaroTherGroup name="1组" code="1" BarometerNo="170484" ThermometerNo="150744"/>
+</BarometerThermometerGroups>
+</task>

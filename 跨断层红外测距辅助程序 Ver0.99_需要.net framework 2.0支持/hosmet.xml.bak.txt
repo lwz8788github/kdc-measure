@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 注释 本文件记录了本期观测使用的气压计和温度计所对应的检定结果 -->
+<VerificationResults>
+<!-- 注释 气压计检定结果 -->
+<BarometerVerificationResults>
+    <!-- 注释 第1个气压计 编号、出厂编号、检定证号等 -->
+    <Barometer BarometerNo="61273045"  CertificateNo="陕气检P14-111" Name="高原空盒气压表" Type="DYM3-1" Manufacturer="长春气象仪器厂"/>
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">+0.00</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">+0.4</SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <value>1010,-0.1</value>    
+            <value>1000,-0.1</value>
+            <value>990,-0.1</value>
+            <value>980,-0.1</value>
+            <value>970,-0.1</value>
+            <value>960,-0.1</value>
+            <value>950,-0.1</value>
+            <value>940,-0.1</value>
+            <value>930,-0.1</value>
+            <value>920,-0.1</value>
+            <value>910,-0.1</value>
+            <value>900,-0.1</value>
+            <value>890,-0.1</value>
+            <value>880,-0.1</value>
+            <value>870,-0.1</value>
+            <value>860,-0.1</value>
+            <value>850,-0.1</value>
+            <value>840,-0.1</value>
+            <value>830,-0.1</value>
+            <value>820,-0.1</value>
+            <value>810,-0.1</value>
+            <value>800,-0.1</value>
+            <value>790,-0.1</value>
+            <value>780,-0.1</value>
+            <value>770,-0.1</value>
+            <value>760,-0.1</value>
+            <value>750,-0.1</value>
+            <value>740,-0.1</value>
+            <value>730,-0.1</value>
+            <value>720,-0.1</value>
+            <value>710,-0.1</value>
+            <value>700,-0.1</value>
+            <value>690,-0.1</value>
+            <value>680,-0.1</value>
+            <value>670,-0.1</value>
+            <value>660,-0.1</value>
+            <value>650,-0.1</value>
+            <value>640,-0.1</value>
+            <value>630,-0.1</value>
+            <value>620,-0.1</value>
+            <value>610,-0.1</value>
+            <value>600,-0.1</value>
+            <value>590,-0.1</value>
+            <value>580,-0.1</value>
+            <value>570,-0.1</value>
+            <value>560,-0.1</value>
+            <value>550,-0.1</value>
+            <value>540,-0.1</value>
+            <value>530,-0.1</value>
+            <value>520,-0.1</value>
+            <value>510,-0.1</value>
+            <value>500,-0.1</value>
+            <value>490,-0.1</value>
+        </CorrectValue>
+    </Barometer>
+    <!-- 注释 第2个气压计 出厂编号、检定证号等 -->
+    <Barometer BarometerNo="61273046"  CertificateNo="陕气检P14-113" Name="高原空盒气压表" Type="DYM3-1" Manufacturer="长春气象仪器厂"/>
+        <!-- 注释 温度系数 -->
+        <TemperatureCorrect measuringUnit="hPa/℃">+0.00</TemperatureCorrect>
+        <!-- 注释 补充修正值 -->
+        <SuppleCorrect measuringUnit="hPa">+0.4 </SuppleCorrect>
+        <!-- 注释 示值修正值 -->
+        <CorrectValue measuringUnit="hPa"  MinAirPressure="490" MaxAirPressurep ="1010">
+            <value>1010,-0.1</value>    
+            <value>1000,-0.1</value>
+            <value>990,-0.1</value>
+            <value>980,-0.1</value>
+            <value>970,-0.1</value>
+            <value>960,-0.1</value>
+            <value>950,-0.1</value>
+            <value>940,-0.1</value>
+            <value>930,-0.1</value>
+            <value>920,-0.1</value>
+            <value>910,-0.1</value>
+            <value>900,-0.1</value>
+            <value>890,-0.1</value>
+            <value>880,-0.1</value>
+            <value>870,-0.1</value>
+            <value>860,-0.1</value>
+            <value>850,-0.1</value>
+            <value>840,-0.1</value>
+            <value>830,-0.1</value>
+            <value>820,-0.1</value>
+            <value>810,-0.1</value>
+            <value>800,-0.1</value>
+            <value>790,-0.1</value>
+            <value>780,-0.1</value>
+            <value>770,-0.1</value>
+            <value>760,-0.1</value>
+            <value>750,-0.1</value>
+            <value>740,-0.1</value>
+            <value>730,-0.1</value>
+            <value>720,-0.1</value>
+            <value>710,-0.1</value>
+            <value>700,-0.1</value>
+            <value>690,-0.1</value>
+            <value>680,-0.1</value>
+            <value>670,-0.1</value>
+            <value>660,-0.1</value>
+            <value>650,-0.1</value>
+            <value>640,-0.1</value>
+            <value>630,-0.1</value>
+            <value>620,-0.1</value>
+            <value>610,-0.1</value>
+            <value>600,-0.1</value>
+            <value>590,-0.1</value>
+            <value>580,-0.1</value>
+            <value>570,-0.1</value>
+            <value>560,-0.1</value>
+            <value>550,-0.1</value>
+            <value>540,-0.1</value>
+            <value>530,-0.1</value>
+            <value>520,-0.1</value>
+            <value>510,-0.1</value>
+            <value>500,-0.1</value>
+            <value>490,-0.1</value>
+        </CorrectValue>
+    </Barometer>
+</BarometerVerificationResults>
+
+<!-- 注释 干湿温度计检定结果 -->
+<ThermometerVerificationResults>
+    <!-- 注释 第1个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="221228" CertificateNo="TFB13-020" Name="通风干湿表" Type="DHM2" Manufacturer="天津气象海洋仪器厂"/>
+        <!-- 注释 干温示值修正值 -->
+        <DryCorrectValue measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <value>-20.0,+0.1</value>    
+            <value>-10.0,+0.2</value>
+            <value>0.0,+0.1</value>
+            <value>+10.0,+0.2</value> 
+            <value>+20.0,+0.1</value> 
+            <value>+30.0,+0.2</value> 
+            <value>+40.0,+0.1</value>     
+            <value>+50.0,0.0</value>
+        </CorrectValue>
+        <!-- 注释 湿温示值修正值 -->
+        <WetCorrectValue measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <value>-20.0,+0.1</value>    
+            <value>-10.0,+0.2</value>
+            <value>0.0,+0.1</value>
+            <value>+10.0,+0.2</value> 
+            <value>+20.0,+0.1</value> 
+            <value>+30.0,+0.2</value> 
+            <value>+40.0,+0.1</value>     
+            <value>+50.0,0.0</value>
+        </CorrectValue>
+    </Thermometer>
+    <!-- 注释 第2个干湿温度计 出厂编号、检定证号等 -->
+    <Thermometer  ThermometerNo="221229" CertificateNo="TFB13-021" Name="通风干湿表" Type="DHM2" Manufacturer="天津气象海洋仪器厂"/>
+        <!-- 注释 干温示值修正值 -->
+        <DryCorrectValue measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <value>-20.0,+0.1</value>    
+            <value>-10.0,+0.2</value>
+            <value>0.0,+0.1</value>
+            <value>+10.0,+0.2</value> 
+            <value>+20.0,+0.1</value> 
+            <value>+30.0,+0.2</value> 
+            <value>+40.0,+0.1</value>     
+            <value>+50.0,0.0</value>
+        </CorrectValue>
+        <!-- 注释 湿温示值修正值 -->
+        <WetCorrectValue measuringUnit="degreesCelsius" MinTemp="-20.0" MaxTemp ="+50.0">
+            <value>-20.0,+0.1</value>    
+            <value>-10.0,+0.2</value>
+            <value>0.0,+0.1</value>
+            <value>+10.0,+0.2</value> 
+            <value>+20.0,+0.1</value> 
+            <value>+30.0,+0.2</value> 
+            <value>+40.0,+0.1</value>     
+            <value>+50.0,0.0</value>
+        </CorrectValue>
+    </Thermometer>
+</ThermometerVerificationResults>
+
+
+
+</VerificationResults>
